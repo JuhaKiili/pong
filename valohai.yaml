@@ -1,0 +1,8 @@
+- step:
+    name: train
+    image: python:3.7
+    command:
+      - pip install gym[atari]
+      - pip install numpy
+      - pip install ray
+      - python pong.py
